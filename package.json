@@ -1,0 +1,25 @@
+{
+  "name": "metahash",
+  "version": "1.0.0",
+  "description": "Splits meta and data from an object, using the # as a prefix for meta.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --check-leaks"
+  },
+  "author": "Samm Cooper <samm@sublight.ca>",
+  "keywords": [
+    "meta",
+    "data",
+    "split",
+    "hash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koopero/metahash"
+  },
+  "license": "ISC",
+  "bugs": "https://github.com/koopero/metahash/issues",
+  "devDependencies": {
+    "chai": "^3.4.1"
+  }
+}
